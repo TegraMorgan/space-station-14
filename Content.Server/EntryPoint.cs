@@ -153,6 +153,8 @@ namespace Content.Server
 
             factory.Register<CatwalkComponent>();
 
+            factory.Register<EasilyFlammable>();
+
             IoCManager.Register<ISharedNotifyManager, ServerNotifyManager>();
             IoCManager.Register<IServerNotifyManager, ServerNotifyManager>();
             IoCManager.Register<IGameTicker, GameTicker>();

@@ -1,0 +1,17 @@
+﻿- type: entity
+  id: Cheap_Lighter_2
+  name: Cheap Lighter
+  parent: BaseItem
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: Objects/cheap_lighter2.rsi
+    state: cheap_lighter2_off
+
+  - type: Icon
+    sprite: Objects/cheap_lighter2.rsi
+    state: cheap_lighter2_off
+
+  - type: Item
+    Size: 1
+    sprite: Objects/cheap_lighter2.rsi
